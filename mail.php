@@ -1,5 +1,5 @@
 <?php 
-echo 'Привет';
+echo "<h1>Привет</h1>";
 require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
