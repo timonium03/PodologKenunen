@@ -11,15 +11,15 @@ $phone = $_POST['user_phone'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  																							// Specify main and backup SMTP servers
+$mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'afanasyev.timofey47@gmail.com'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = 'tima2003'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = 'podologkenunen@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = 'daria$1978$'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 993; // TCP port to connect to / этот порт может отличаться у других провайдеров
+$mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('afanasyev.timofey47@gmail.com'); // от кого будет уходить письмо?
-$mail->addAddress('afanasyev.timofey47@gmail.com');     // Кому будет уходить письмо 
+$mail->setFrom('podologkenunen@mail.ru'); // от кого будет уходить письмо?
+$mail->addAddress('podologkenunen@mail.ru');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
