@@ -5,8 +5,8 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
-$name = $_GET['user_name'];
-$phone = $_GET['user_phone'];
+$name = $_POST['user_name'];
+$phone = $_POST['user_phone'];
 //$email = $_POST['user_email'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
